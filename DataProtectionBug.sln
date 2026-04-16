@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProtectionBug", "DataProtectionBug\DataProtectionBug.csproj", "{5B3D1A46-8268-4430-9BCC-A5CDE87075A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProtectionBug.IntegrationTests", "DataProtectionBug.IntegrationTests\DataProtectionBug.IntegrationTests.csproj", "{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B3D1A46-8268-4430-9BCC-A5CDE87075A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3D1A46-8268-4430-9BCC-A5CDE87075A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3D1A46-8268-4430-9BCC-A5CDE87075A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3D1A46-8268-4430-9BCC-A5CDE87075A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

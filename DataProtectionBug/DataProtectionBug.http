@@ -1,0 +1,6 @@
+@DataProtectionBug_HostAddress = http://localhost:5033
+
+GET {{DataProtectionBug_HostAddress}}/?payload=testing
+Accept: application/json
+
+###
