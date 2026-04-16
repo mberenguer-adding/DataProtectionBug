@@ -18,8 +18,6 @@ public abstract class BaseIntegrationTest
         {
             BaseAddress = new Uri("http://localhost/")
         });
-        
-
     }
 
     public void Dispose()

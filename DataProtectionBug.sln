@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProtectionBug", "DataPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProtectionBug.IntegrationTests", "DataProtectionBug.IntegrationTests\DataProtectionBug.IntegrationTests.csproj", "{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{26F490DD-B7A6-422B-8A5B-280C9A2008BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A84AE4-7B27-41D7-9B7A-19C4CAF945BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F490DD-B7A6-422B-8A5B-280C9A2008BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F490DD-B7A6-422B-8A5B-280C9A2008BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F490DD-B7A6-422B-8A5B-280C9A2008BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F490DD-B7A6-422B-8A5B-280C9A2008BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

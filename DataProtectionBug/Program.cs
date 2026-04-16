@@ -1,13 +1,14 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
+using SharedKernel;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-builder.Services.AddDataProtection()
-    .SetApplicationName("DataProtectionBug");
+await builder.AddDataProtection();
 
 var app = builder.Build();
 
