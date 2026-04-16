@@ -9,6 +9,12 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6"/>
     </ItemGroup>
+    <!-- If this is not installed on WebAPI it fails on 10.0.6, not on 10.0.5
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="10.0.6" />
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="10.0.6" />
+    </ItemGroup>
+     -->
     <ItemGroup>
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>

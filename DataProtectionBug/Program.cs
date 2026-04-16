@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel;
-using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
